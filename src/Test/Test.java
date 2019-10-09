@@ -4,7 +4,8 @@ public class Test {
     public int a;
 
     public static void main(String[] args){
-        Test t = new Test();
-        System.out.println(t.a);
+        Test S = new Test();
+        System.out.println(Integer.MAX_VALUE);
     }
+
 }
