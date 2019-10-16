@@ -71,7 +71,6 @@ public class MergeByLinkedList<Item extends Comparable<Item>> {
         Node middlepast = middle.next;
         middle.next=null;
         return Merge(MergeSort(head),MergeSort(middlepast));
-
     }
     public void Sort(){
         first = MergeSort(first);
