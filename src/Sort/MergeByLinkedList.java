@@ -35,7 +35,7 @@ public class MergeByLinkedList<Item extends Comparable<Item>> {
 
     private Node getMiddle(Node head){
         if (head==null)
-            return head;
+            return null;
         Node fast=head;
         Node slow=head;
         while(fast.next!=null&&fast.next.next!=null){
@@ -64,7 +64,7 @@ public class MergeByLinkedList<Item extends Comparable<Item>> {
     }
     private Node MergeSort(Node head){
         //单个元素，则不排序
-        if(head.next==null){
+        if(head==null||head.next==null){
             return head;
         }
         Node middle = getMiddle(head);
