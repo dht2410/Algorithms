@@ -10,11 +10,20 @@ public class Test {
         return --a;
     }
     public static void main(String[] args) {
-        String a = "11";
-        String b = "10";
+        String a = new StringBuilder("a").append("a").toString();
+        System.out.println(a.intern()==a);
+        String b = "aa";
+        int t = 'A';
+        System.out.println(t);
 
-        Integer t = new Integer(2);
-        System.out.println();
+//        String b = new StringBuilder("b").append("a").toString();
+//        System.out.println(b.intern()==b);
+//        String c = new StringBuilder("b").append("a").toString();
+//        System.out.println(c.intern()==c);
+
+        Integer t1 = new Integer(2);
+        Integer t2 = new Integer(2);
+
     }
 
 }
