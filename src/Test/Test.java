@@ -21,9 +21,9 @@ public class Test {
 //        String c = new StringBuilder("b").append("a").toString();
 //        System.out.println(c.intern()==c);
 
-        Integer t1 = new Integer(2);
+        int t1 = 2;
         Integer t2 = new Integer(2);
-
+        System.out.println(t1==t2);
     }
 
 }
