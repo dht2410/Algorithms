@@ -2,6 +2,7 @@ package Test;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class Test {
@@ -21,9 +22,14 @@ public class Test {
 //        String c = new StringBuilder("b").append("a").toString();
 //        System.out.println(c.intern()==c);
 
-        int t1 = 2;
-        Integer t2 = new Integer(2);
-        System.out.println(t1==t2);
+//        int t1 = 2;
+//        Integer t2 = new Integer(2);
+//        System.out.println(t1==t2);
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(null);
+        System.out.println(list.remove(2));
     }
 
 }
