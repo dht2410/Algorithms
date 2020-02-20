@@ -1,9 +1,7 @@
 package Test;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Test {
     public int a;
@@ -16,7 +14,6 @@ public class Test {
         String b = "aa";
         int t = 'A';
         System.out.println(t);
-
 //        String b = new StringBuilder("b").append("a").toString();
 //        System.out.println(b.intern()==b);
 //        String c = new StringBuilder("b").append("a").toString();
@@ -29,7 +26,7 @@ public class Test {
         list.add(1);
         list.add(2);
         list.add(null);
-        System.out.println(list.remove(2));
+        System.out.println(list.remove(1));
     }
 
 }
