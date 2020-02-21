@@ -23,6 +23,8 @@ public class Test {
 //        Integer t2 = new Integer(2);
 //        System.out.println(t1==t2);
         LinkedList<Integer> list = new LinkedList<>();
+        List<Integer> l = new ArrayList<>();
+        list.addFirst(4);
         list.add(1);
         list.add(2);
         list.add(null);
