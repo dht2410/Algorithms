@@ -8,27 +8,25 @@ public class Test {
     int sub(){
         return --a;
     }
+    public static int[] getList(){
+        return new int[2];
+    }
     public static void main(String[] args) {
         String a = new StringBuilder("a").append("a").toString();
         System.out.println(a.intern()==a);
         String b = "aa";
         int t = 'A';
         System.out.println(t);
+        System.out.println(getList()[0]);
 //        String b = new StringBuilder("b").append("a").toString();
 //        System.out.println(b.intern()==b);
 //        String c = new StringBuilder("b").append("a").toString();
 //        System.out.println(c.intern()==c);
 
-//        int t1 = 2;
-//        Integer t2 = new Integer(2);
-//        System.out.println(t1==t2);
-        LinkedList<Integer> list = new LinkedList<>();
-        List<Integer> l = new ArrayList<>();
-        list.addFirst(4);
-        list.add(1);
-        list.add(2);
-        list.add(null);
-        System.out.println(list.remove(1));
+
+
+
+
     }
 
 }
