@@ -9,12 +9,14 @@ public class DirectedDFS {
         marked = new boolean[G.V()];
         dfs(G,s);
     }
+
     public DirectedDFS(DiGraph G, Iterable<Integer> source){
         marked = new boolean[G.V()];
         for(int s:source){
             dfs(G,s);
         }
     }
+
     public void dfs(DiGraph G, int s){
         marked[s] = true;
         for(int v:G.adj(s)){

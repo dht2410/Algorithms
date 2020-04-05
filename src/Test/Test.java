@@ -23,7 +23,9 @@ public class Test {
 //        String c = new StringBuilder("b").append("a").toString();
 //        System.out.println(c.intern()==c);
 
-
+        HashMap<Integer,Integer> map = new HashMap<>();
+        map.put(1,1);
+        System.out.print(map.containsKey(2));
 
 
 
