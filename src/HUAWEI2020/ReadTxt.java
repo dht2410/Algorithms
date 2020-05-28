@@ -5,8 +5,8 @@ import java.io.FileReader;
 import java.util.*;
 
 public class ReadTxt{
-    public static HashMap<Integer, LinkedList<Integer>> getMap(){
-        String filePath = "E://华为软挑2020/test_data.txt";
+    public static HashMap<Integer, LinkedList<Integer>> getMap(String filePath){
+//      String filePath = "E://华为软挑2020/test_data.txt";
 //		String filePath = "smalldata.txt";
 //		String filePath = "bigdata.txt";
 
@@ -179,7 +179,7 @@ public class ReadTxt{
     }
     public static void main(String[] args){
         long startTime =  System.currentTimeMillis();
-        HashMap<Integer,LinkedList<Integer>> map = getMap();
+        HashMap<Integer,LinkedList<Integer>> map = getMap("E://华为软挑2020/test_data.txt");
         long endTime =  System.currentTimeMillis();
         System.out.println(endTime-startTime);
     }
