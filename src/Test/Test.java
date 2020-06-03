@@ -25,10 +25,14 @@ public class Test {
 
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(1,1);
-        System.out.println(map.containsKey(2));
+        System.out.println(map.get(2));
 
-        Runnable run = () -> System.out.println(111);
-        new Thread(run).start();
+//        Runnable run = () -> System.out.println(111);
+//        new Thread(run).start();
+
+        String mm = "123";
+        System.out.println();
+
     }
 
 }

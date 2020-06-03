@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21795ec4-f6d5-44ff-95dd-350a0acd0449" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HUAWEI_2020/MainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DaJiaJieShe_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DecodingMethod_91.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LFUcache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Graph/DiGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Graph/DiGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/FindCirclesV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/FindCirclesV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/ReadTxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/HUAWEI2020/ReadTxt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/DiGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/DiGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HUAWEI2020/FindCirclesV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HUAWEI2020/FindCirclesV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HUAWEI2020/ReadTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HUAWEI2020/ReadTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Test/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="207">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
@@ -38,10 +33,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI2020/Shave.java">
+        <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1299">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/DecodingMethod_91.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/LFUcache.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,13 +63,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI2020/DiGraph.java">
+        <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/LinkedHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="115">
+              <caret line="118" column="15" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6162#6163#0" expanded="true" />
+                <element signature="e#6199#6200#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/DaJiaJieShe_198.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,69 +88,13 @@
         <entry file="file://$PROJECT_DIR$/src/leetcode/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="94" column="31" lean-forward="true" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+              <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
               <folding>
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI2020/ReadTxt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4048">
-              <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graph/DiGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI2020/FindCirclesV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI_2020/MainV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5451">
-              <caret line="242" column="50" selection-start-line="242" selection-start-column="50" selection-end-line="242" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI_2020/MainV3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myresult2.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor" />
         </entry>
       </file>
     </leaf>
@@ -169,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/SortList.java" />
-        <option value="$PROJECT_DIR$/src/Sort/MergeByLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Maxnums_179.java" />
         <option value="$PROJECT_DIR$/src/Search/SequentialSearchST.java" />
         <option value="$PROJECT_DIR$/src/Search/BinarySearchST.java" />
         <option value="$PROJECT_DIR$/src/Search/BinarySearch.java" />
@@ -219,11 +183,14 @@
         <option value="$PROJECT_DIR$/src/HUAWEI_2020/MainV3.java" />
         <option value="$PROJECT_DIR$/src/Graph/DiGraph.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/LFUcache.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/DaJiaJieShe_198.java" />
         <option value="$PROJECT_DIR$/src/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/DecodingMethod_91.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1032" />
@@ -252,6 +219,12 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -263,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590597615126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591181335424" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -407,11 +380,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="703" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17138238" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.16491511" />
+      <window_info id="Structure" order="1" sideWeight="0.5011655" side_tool="true" weight="0.21422797" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -419,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24868652" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35551664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38528895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,55 +452,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sort/CountSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/TwoColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/DepthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/DepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/ConnectedComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/HeapbyArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -875,7 +799,7 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="94" column="31" lean-forward="true" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
           <folding>
             <element signature="e#491#492#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
@@ -883,15 +807,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/DaJiaJieShe_198.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/LFUcache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4623">
+          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/LinkedHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="118" column="15" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+          <folding>
+            <element signature="e#6162#6163#0" expanded="true" />
+            <element signature="e#6199#6200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3178">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="207">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1299">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/DecodingMethod_91.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
