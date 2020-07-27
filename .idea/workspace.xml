@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21795ec4-f6d5-44ff-95dd-350a0acd0449" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/FanxingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/ReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TreeMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/PartitionKSubsets_698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Test/Cmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Test/Cmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Cmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Cmp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +15,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HUAWEI2020/FindCirclesV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HUAWEI_2020/MainV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5773">
+            <state relative-caret-position="5842">
               <caret line="256" column="13" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
             </state>
           </provider>
@@ -105,20 +90,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
+            <state relative-caret-position="437">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TreeMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/StringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -162,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Search/RedBlackBST.java" />
         <option value="$PROJECT_DIR$/src/Search/AVL.java" />
         <option value="$PROJECT_DIR$/src/Search/SeparateChainingHashST.java" />
         <option value="$PROJECT_DIR$/src/Search/LinearProbingHashST.java" />
@@ -213,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/Test/FanxingTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/PartitionKSubsets_698.java" />
         <option value="$PROJECT_DIR$/src/Test/TreeMapTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/StringTest.java" />
       </list>
     </option>
   </component>
@@ -222,7 +216,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="288" />
     <option name="y" value="21" />
     <option name="width" value="1530" />
@@ -237,7 +231,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,10 +253,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594805014977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595817029869" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -290,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeMapTest">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="Cmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Cmp" />
       <module name="Algorithms" />
@@ -330,8 +324,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.StringTest" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -382,20 +376,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ReferenceTest" />
       <item itemvalue="Application.Cmp" />
       <item itemvalue="Application.FanxingTest" />
-      <item itemvalue="Smart Tomcat.TomcatTest" />
+      <item itemvalue="Application.ReferenceTest" />
       <item itemvalue="Application.TreeMapTest" />
+      <item itemvalue="Smart Tomcat.TomcatTest" />
+      <item itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.TreeMapTest" />
         <item itemvalue="Application.FanxingTest" />
         <item itemvalue="Application.Cmp" />
         <item itemvalue="Application.ReferenceTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -410,13 +404,21 @@
       <option name="presentableId" value="Default" />
       <updated>1568961677025</updated>
     </task>
+    <task id="LOCAL-00001" summary="some test">
+      <created>1594805066595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594805066595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.20452708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.16491511" />
       <window_info id="Structure" order="1" sideWeight="0.5011655" side_tool="true" weight="0.21422797" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,7 +427,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35551664" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20140105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38528895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,6 +474,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="some test" />
+  </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
@@ -485,13 +491,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/KosarajuSCC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/EdgeWeightedDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -829,7 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HUAWEI_2020/MainV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5773">
+        <state relative-caret-position="5842">
           <caret line="256" column="13" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
         </state>
       </provider>
@@ -888,18 +887,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
+        <state relative-caret-position="437">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TreeMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="321">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
