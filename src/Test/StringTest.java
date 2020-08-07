@@ -2,8 +2,7 @@ package Test;
 
 public class StringTest {
     public static void main(String[] args) {
-        String s = "vds";
-        char[] charArray = s.toCharArray();
-        System.out.println(s.equals(charArray));
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
     }
 }
