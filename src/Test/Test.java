@@ -18,20 +18,10 @@ public class Test {
         int t = 'A';
         System.out.println(t);
         System.out.println(getList()[0]);
-//        String b = new StringBuilder("b").append("a").toString();
-//        System.out.println(b.intern()==b);
-//        String c = new StringBuilder("b").append("a").toString();
-//        System.out.println(c.intern()==c);
 
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(1,1);
         System.out.println(map.get(2));
-
-//        Runnable run = () -> System.out.println(111);
-//        new Thread(run).start();
-
-        String mm = "123";
-        System.out.println();
 
     }
 
