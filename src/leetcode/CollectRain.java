@@ -31,5 +31,6 @@ public class CollectRain {
     public static void main(String[] args) {
         CollectRain cr = new CollectRain();
         System.out.println(cr.trap(new int[]{5,2,1,2,1,5}));
+
     }
 }

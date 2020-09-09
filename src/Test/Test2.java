@@ -35,20 +35,8 @@ public class Test2 {
 
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int L = sc.nextInt();
-        int[] a = getList(N,L);
-        if (a[1]==0){
-            System.out.print("No");
-        }
-        else{
-            int t = a[0];
-            for (int i=0;i<a[1];i++){
-                System.out.print(t);
-                System.out.print(" ");
-                t++;
-            }
-        }
+        char[] c = new char[4];
+        String s = new String(c);
+        System.out.println(s.length());
     }
 }

@@ -1,5 +1,7 @@
 package Test;
 
+import java.lang.ref.ReferenceQueue;
+import java.lang.ref.SoftReference;
 import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -19,9 +21,7 @@ public class Test {
         System.out.println(t);
         System.out.println(getList()[0]);
 
-        HashMap<Integer,Integer> map = new HashMap<>();
-        map.put(1,1);
-        System.out.println(map.get(2));
+        PriorityQueue<Integer> heap = new PriorityQueue<>(2);
 
     }
 
