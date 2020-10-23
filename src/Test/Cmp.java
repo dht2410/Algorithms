@@ -1,5 +1,6 @@
 package Test;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -13,5 +14,8 @@ public class Cmp {
         });
         System.out.println(pq.getClass().getName());
         Object obj = new Object();
+
+        int[] nums = new int[4];
+        Arrays.sort(nums);
     }
 }
