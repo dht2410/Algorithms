@@ -53,6 +53,84 @@ public class ZhengZePiPei_JianZhi19 {
         return false;
     }
 
+    public boolean isMatchWithDP(String s, String p){
+        int sLen = s.length();
+        int pLen = p.length();
+        boolean[][] dp = new boolean[sLen+1][pLen+1];
+        dp[0][0] = true;
+
+        //初始化，如果'*'出现在偶数位置，则表示可以匹配空字符串
+        boolean isOk = true;  //状态机
+        for (int i=1;i<=sLen;i++){
+            if (s.charAt(i-1)!='*'){
+                if (i%2==0) isOk = false;
+            }
+            else if (s.charAt(i-1)=='*' && isOk){
+                dp[i][0] = true;
+            }
+        }
+        isOk = true;
+        for (int j=1;j<=pLen;j++){
+            if (p.charAt(j-1)!='*'){
+                if (j%2==0) isOk = false;
+            }
+            else if (p.charAt(j-1)=='*' && isOk){
+                dp[0][j] = true;
+            }
+        }
+
+        //分是不是'*'，四种情况讨论
+       for (int i=1;i<=sLen;i++){
+            for (int j=1;j<=pLen;j++){
+                char c1 = s.charAt(i-1);
+                char c2 = p.charAt(j-1);
+                //都不是，看是不是相等或有一个为'.'
+                if (c1!='*'&&c2!='*'){
+                    if (!dp[i-1][j-1]){
+                        dp[i][j] = false;
+                    }
+                    else if (c1=='.' || c2=='.' || c1==c2){
+                        dp[i][j] = true;
+                    }
+                    else {
+                        dp[i][j] = false;
+                    }
+                }
+                //有一个是，先看能不能和0个或1个匹配，再看上一个能不能和它匹配
+                else if (c1=='*' && c2!='*'){
+                    char c11 = s.charAt(i-2);
+                    if (dp[i-1][j]||dp[i-2][j]){
+                        dp[i][j] = true;
+                    }
+                    else if (c11==c2 || c11=='.' || c2=='.'){
+                        dp[i][j] = dp[i][j-1];
+                    }
+                    else {
+                        dp[i][j] = false;
+                    }
+                }
+                else if (c1!='*' && c2=='*'){
+                    char c22 = p.charAt(j-2);
+                    if (dp[i][j-1]||dp[i][j-2]){
+                        dp[i][j] = true;
+                    }
+                    else if (c22==c1 || c22=='.' || c1=='.'){
+                        dp[i][j] = dp[i-1][j];
+                    }
+                    else {
+                        dp[i][j] = false;
+                    }
+                }
+                //都是，则是前几个的混合
+                else {
+                    if (dp[i][j-1] || dp[i-1][j] || dp[i][j-2] || dp[i-2][j]){
+                        dp[i][j] = true;
+                    }
+                }
+            }
+        }
+        return dp[sLen][pLen];
+    }
     public static void main(String[] args) {
         ZhengZePiPei_JianZhi19 regex = new ZhengZePiPei_JianZhi19();
         String s = "aaa";
